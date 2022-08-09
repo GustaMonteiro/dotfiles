@@ -218,4 +218,8 @@ gaps inner 10
 exec --no-startup-id xrandr --output eDP-1 --primary --mode 1920x1080 --pos 1920x0 --rotate normal --output HDMI-1 --mode 1920x1080 --pos 0x0 --rotate normal
 exec --no-startup-id nitrogen --restore
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec xmodmap -e "pointer = 3 2 1"
+exec --no-startup-id ~/.config/i3/switchPrimaryTouchpadButton.sh
 
+workspace 1 output HDMI-1
+workspace 2 output eDP-1
