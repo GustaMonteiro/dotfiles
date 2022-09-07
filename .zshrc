@@ -348,6 +348,7 @@ export PATH=$HOME/.cargo/bin:$HOME/.local/bin:$PATH
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 source /home/gusta/.zsh-plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /home/gusta/.zsh-plugins/fast-syntax-highlighting/F-Sy-H.plugin.zsh
+# source /home/gusta/.zsh-plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -540,3 +541,4 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 source /opt/asdf-vm/asdf.sh
+export LD_LIBRARY_PATH=/usr/local/lib
